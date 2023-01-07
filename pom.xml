@@ -11,35 +11,35 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.jupiter.version>5.8.1</junit.jupiter.version>
-        <junit.platform.version>1.8.1</junit.platform.version>
+        <junit.jupiter.version>5.9.0</junit.jupiter.version>
+        <junit.platform.version>1.9.0</junit.platform.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11.0.2</version>
+            <version>19</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>11.0.2</version>
+            <version>19</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-web</artifactId>
-            <version>11.0.2</version>
+            <version>19</version>
         </dependency>
         <dependency>
             <groupId>org.controlsfx</groupId>
             <artifactId>controlsfx</artifactId>
-            <version>11.1.0</version>
+            <version>11.1.2</version>
         </dependency>
         <dependency>
             <groupId>com.dlsc.formsfx</groupId>
             <artifactId>formsfx-core</artifactId>
-            <version>11.3.2</version>
+            <version>11.5.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.openjfx</groupId>
@@ -50,7 +50,7 @@
         <dependency>
             <groupId>net.synedra</groupId>
             <artifactId>validatorfx</artifactId>
-            <version>0.1.13</version>
+            <version>0.4.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.openjfx</groupId>
@@ -61,7 +61,7 @@
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
             <artifactId>ikonli-javafx</artifactId>
-            <version>12.2.0</version>
+            <version>12.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.kordamp.bootstrapfx</groupId>
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>eu.hansolo</groupId>
             <artifactId>tilesfx</artifactId>
-            <version>11.48</version>
+            <version>17.1.15</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.openjfx</groupId>
@@ -101,43 +101,43 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>RELEASE</version>
+            <version>7.7.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.8.1</version>
+            <version>5.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-engine</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite-commons</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite-engine</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.0</version>
             <scope>compile</scope>
         </dependency>
 
