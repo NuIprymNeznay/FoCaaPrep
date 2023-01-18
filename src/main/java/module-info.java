@@ -13,10 +13,9 @@ module com.example.focaap {
     requires org.junit.platform.suite.commons;
     requires org.junit.platform.suite.engine;
     requires com.dlsc.formsfx;
-    requires validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
+    /*requires eu.hansolo.tilesfx;*/
 
     opens com.example.focaap to javafx.fxml;
     exports com.example.focaap;
