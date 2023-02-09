@@ -20,39 +20,44 @@
 <?import javafx.scene.control.TextField?>
 
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.shape.Rectangle?>
 <Pane xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.focaap.controller.FaceAppContrl"
+      fx:id="paneFaceAppRoot"
       maxHeight="1.7976931348623157E308"
       maxWidth="1.7976931348623157E308"
-      prefHeight="400.0"
-      prefWidth="600.0"
+      prefHeight="670.0"
+      prefWidth="1200.0"
       xmlns="http://javafx.com/javafx/11">
     <children>
-        <BorderPane prefHeight="400.0" prefWidth="600.0">
+        <MenuBar fx:id="menuBarFaceApp" maxWidth="1667" minWidth="355"  prefHeight="26.0" prefWidth="1100.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+    <children>
+        <BorderPane fx:id="borderPaneFaceApp" prefHeight="766" prefWidth="1222.0">
             <top>
-                <VBox prefHeight="50.0" prefWidth="590.0" BorderPane.alignment="CENTER">
+                <VBox fx:id="vBoxFaceApp" prefHeight="50.0" prefWidth="900.0" BorderPane.alignment="CENTER">
                     <children>
-                        <MenuBar minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="600.0">
-                            <menus>
-                                <Menu mnemonicParsing="false" text="File">
-                                    <items>
-                                        <MenuItem mnemonicParsing="false" text="Close" />
-                                    </items>
-                                </Menu>
-                                <Menu mnemonicParsing="false" text="Edit">
-                                    <items>
-                                        <MenuItem mnemonicParsing="false" text="Delete" />
-                                    </items>
-                                </Menu>
-                                <Menu mnemonicParsing="false" text="Help">
-                                    <items>
-                                        <MenuItem mnemonicParsing="false" text="About" />
-                                    </items>
-                                </Menu>
-                            </menus>
-                        </MenuBar>
                         <HBox fx:id="hBox">
                             <Button mnemonicParsing="false" text="+" onAction="#tabsAdd"/>
+                            <Button fx:id="useGeoStage" mnemonicParsing="false" text="+" onAction="#useGeoStage"/>
                             <TextField fx:id="tFi" layoutX="50.0" layoutY="70.0" prefHeight="30.0" prefWidth="300.0" promptText="E-mail"/>
                             <!--<children>
                                <Button mnemonicParsing="false" text="+" fx:id="addTabButton" onAction="#tabsAdd"/>
@@ -89,8 +94,8 @@
             <left>
                 <ToolBar orientation="VERTICAL" prefHeight="348.0" prefWidth="26.0">
                     <items>
-                        <Button mnemonicParsing="false" text="+" />
-                        <Button mnemonicParsing="false" text="+" />
+                        <Button fx:id="buttonVPlate1" onAction="#buttonVPlate1M" mnemonicParsing="false" text="+" />
+                        <Button fx:id="buttonVPlate2" mnemonicParsing="false" text="+" />
                     </items>
                 </ToolBar>
             </left>
